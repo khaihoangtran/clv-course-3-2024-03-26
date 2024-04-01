@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 1rem 0.5rem;
+}
+
+#solutions:hover #dropdown-solutions {
+  display: block;
+}
+
+#services:hover #dropdown-services {
+  display: block;
+}
+
+#careers:hover #dropdown-careers {
+  display: block;
+}
+
+.show {
+  display: flex;
+}
+
+.youtube {
+  width: -webkit-fill-available;
+}
+
+/* #services-mobile:hover #dropdown-services-mobile {
+  display: flex;
+}
+
+#solutions-mobile:hover #dropdown-solutions-mobile {
+  display: flex;
+}
+
+#careers-mobile:hover #dropdown-careers-mobile {
+  display: flex;
+} */
